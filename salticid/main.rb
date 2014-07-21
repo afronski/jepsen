@@ -127,6 +127,5 @@ group :jepsen do
     role :zk
     role :foundationdb
     role :jepsen
-    @password = 'vagrant'
   end
 end
