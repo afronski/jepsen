@@ -114,7 +114,7 @@ group :jepsen do
   host :n5
   
   each_host do
-    user :ubuntu
+    user :vagrant
     role :base
     role :cassandra
     role :etcd
@@ -127,6 +127,6 @@ group :jepsen do
     role :zk
     role :foundationdb
     role :jepsen
-    @password = 'ubuntu'
+    @password = 'vagrant'
   end
 end
